@@ -1,4 +1,5 @@
 import React, { Component,Fragment } from 'react';
+import ReactDOM from "react-dom";
 import Navbar from "./Navbar";
 import İnput from "./İnput";
 import ToDoList from "./ToDoList";
@@ -54,4 +55,4 @@ export class İndex extends Component {
    }
 }
 
-export default İndex
+ReactDOM.render(<İndex/>,document.querySelector("#root"));
